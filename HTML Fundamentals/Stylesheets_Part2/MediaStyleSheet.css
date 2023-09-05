@@ -1,0 +1,55 @@
+﻿*{
+    margin:0;
+    padding:0;
+}
+body {
+    font-family: 'Bricolage Grotesque';
+}
+
+#iframe1 {
+    width:100%;
+    height:370px;
+    background-color:#54d152;
+    align-items:center;
+    display:flex;
+    justify-content:center;
+
+}
+#h1 {
+    padding: 10px;
+    margin-right: 50px;
+    border-radius: 5px;
+    background-color: whitesmoke;
+    color: black;
+}
+
+#audio {
+    width: 100%;
+    height: 370px;
+    background-color: #357ef8;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+h2 {
+    padding: 10px;
+    margin-right: 290px;
+    border-radius: 5px;
+    background-color: whitesmoke;
+    color: black;
+}
+#m {
+    padding: 10px;
+    margin-right: 100px;
+    border-radius: 5px;
+    background-color: whitesmoke;
+    color: black;
+}
+.map {
+    width: 100%;
+    height: 370px;
+    background-color: #e86521;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}

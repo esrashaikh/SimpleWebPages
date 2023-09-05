@@ -1,0 +1,118 @@
+﻿body {
+    background-color: #404659;
+    color: #f4f8f4;
+    font-family: 'Dosis';
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.3);
+    padding: 10px 20px;
+    margin-right: 20px; 
+}
+
+    .navbar a {
+        color: #f4f8f4;
+        text-decoration: none;
+        font-size: 20px;
+        margin-right: 170px;
+        padding: 10px;
+    }
+
+        .navbar a:hover {
+            color: #486bf4;
+        }
+
+#b1, #b2 {
+    margin-top: 10px;
+    margin-right: 10px;
+    border-radius: 10px;
+    width: 100px;
+    height: 40px;
+    background-color: #486bf4;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+    #b1:hover, #b2:hover {
+        background-color: #334dbf;
+    }
+
+
+.mainbar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 80px;
+    margin-right: 170px;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.1);
+    border-radius: 10px;
+    text-align: center;
+    margin-bottom: 20px; 
+}
+
+.button-container {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-right: 360px;
+    margin-top: -135px;
+}
+
+#span {
+    font-size: 35px;
+    font-family: 'Tilt Prism', cursive;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.9);
+}
+
+
+
+.button-style {
+    border: none;
+    border-radius: 10px;
+    width: 150px;
+    height: 40px;
+    padding: 10px;
+    font-size: 15px;
+    background-color: #486bf4;
+    color: white;
+    cursor: pointer;
+    
+   
+    
+}
+
+    .button-style:hover {
+        background-color: #334dbf;
+    }
+
+footer {
+    text-align: center;
+    background-color: lightgray;
+    font-size: 15px;
+    height: 20px;
+    width: 100%;
+    padding: 10px 0;
+    color: black;
+    font-family: 'Arial';
+    position: fixed;
+    bottom: 0;
+}
+@keyframes wave {
+    0%, 100% {
+        transform: translateX(0);
+    }
+
+    50% {
+        transform: translateX(20px); 
+    }
+}
+
+.animate-wave {
+    animation: wave 2s ease-in-out infinite; 
+}
+
